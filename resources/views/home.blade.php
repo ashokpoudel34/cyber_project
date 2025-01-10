@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', function () {
         @endif
         <h1>Geolocation and Security Tool</h1>
         <p style="color: #777; margin-bottom: 1rem;">
-            A modern and innovative tool to check your files for malware threats.
+            A modern and innovative platform to use cybersecurity Tools.
         </p>
         <form id="malwareForm" action="{{ route('site.home') }}" method="POST" enctype="multipart/form-data">
         @csrf
